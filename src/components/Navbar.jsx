@@ -31,7 +31,7 @@ const Navbar = () => {
  ]
 
   return (
-    <header className='container px-4 '>
+    <header className='container py-4 px-2 absolute top-0 right-0 left-0'>
         <nav className='flex justify-between items-center md:py-4 pt-6 pb-3'>
         <FaSearch className=' text-Black w-5 h-5 cursor-pointer hidden md:block'/>
 

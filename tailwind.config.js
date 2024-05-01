@@ -5,18 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
+    extend:{
       colors:{
        Black: "#1E2832",
-       primary: "#1e28320d",
+       primaryBG: "#1e28320d",
       }
     },
-    fontFamily: {
+    fontFamily:{
       primary: ["Roboto","sans-serif"],
      secondary:["Cormorant Upright"," serif"],
      opensans:[ "Open Sans", "sans-serif"]
     },
-    container: {
+    container:{
       center: true,
     },
 
