@@ -7,6 +7,7 @@ export default {
   theme: {
     extend:{
       colors:{
+       black_rgba: 'rgba(0, 0, 0, 0.4)', 
        Black: "#1E2832",
        primaryBG: "#1e28320d",
       }
