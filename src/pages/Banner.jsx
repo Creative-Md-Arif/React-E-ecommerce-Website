@@ -18,7 +18,7 @@ const Banner = () => {
          <div className='md:w-1/2'>
             <h1 className='text-5xl font-light mb-5'>Collections</h1>
             <p className='text-xl mb-7'>you can explore ans shop many differnt collection
-             from various barands here.</p>
+             from various brands here.</p>
              {/* button */}
              <div className='pt-5'>
                  <Link to="#" className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-secondary font-bold tracking-tighter text-black bg-[#DCCA87] rounded-lg group">
