@@ -8,7 +8,7 @@ const Cards = ({filteredItems}) => {
   return (
     <div className='grid xl:grid-cols-4 md:grid-cols-3 sm:grid-col-2 grid-cols-1 items-center justify-center gap-12 shadow-sm'>
         {
-            filteredItems.map((item) => (
+            filteredItems.slice(0 , 9).map((item) => (
                 <div key={item.id}>
                     <Link to={`/shop/${item.id}`}>
                         {/* image hover  */}

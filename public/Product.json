@@ -16,6 +16,22 @@
        "status": "Best Selers"
     },
     {
+        "id":9,
+       "title":"Nike Sportswear Futura Luxe",
+       "category": "Bag",
+       "price": 130.00,
+       "image":"/public/products/image7.png",
+       "status": "Best Selers"
+    },
+    {
+        "id":10,
+       "title":"Nike Sportswear Futura Luxe",
+       "category": "Bag",
+       "price": 130.00,
+       "image":"/public/products/image7.png",
+       "status": "Best Selers"
+    },
+    {
         "id":3,
        "title":"Geometric print Scarf",
        "category": "Dress",

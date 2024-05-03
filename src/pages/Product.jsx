@@ -43,6 +43,34 @@ const showAll = () => {
     selectedCategory("all");
 }
 
+
+// sorting functionality
+
+const handleSortChange = (option) => {
+  setSortOption(option);
+
+  //logic for sortedItems
+  let  sortedItems = [...filteredItems];
+  switch (option) {
+    case "A-Z" : 
+             sortedItems.sort((a,b) => a.title.localeCompare(b.title));
+             break;
+    case "Z-A" :
+            sortedItems.sort((a,b) => b.title.localeCompare(a.title));
+            break;
+    case "low-to-high" :
+            sortedItems.sort((a , b) => a.price - b.price);
+            break;
+    case "high-to-low" :
+            sortedItems.sort((a , b) => b.price - a.price);
+            break; 
+    default :
+            break;                                
+  }
+  setFilteredItems(sortedItems);
+
+}
+
   return (
     <section>
         <div className='container px-4 mb-12'>
@@ -64,12 +92,16 @@ const showAll = () => {
                     <div className='bg-black p-2'>
                     <FaFilter className=' text-white h-4 w-4' />
                     </div>
-                    <select name="" id="" className='bg-black text-white px-2 py-1 rounded-sm'>
+                    <select
+                     id="sort"
+                     onChange={(e) => handleSortChange(e.target.value)}
+                     value={sortOption}
+                        className='bg-black text-white px-2 py-1 rounded-sm'>
                         <option value="default">Default</option>
                         <option value="A-Z">A-Z</option>
                         <option value="Z-A">Z-A</option>
                         <option value="low-to-high">Low-to-high</option>
-                        <option value="high-low-to">High-low-to</option>
+                        <option value="high-to-low">High-low-to</option>
                         
 
                     </select>
