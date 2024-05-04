@@ -12,7 +12,7 @@ const Newsletters = () => {
 
               {/* insta grid */}
 
-              <div className='flex flex-wrap gap-4 items-center justify-between mb-20'>
+              <div className='flex flex-wrap gap-4 items-center justify-center mb-20 mx-auto '>
                   <Link to="/">
                       <img src="/public/newslatters/card.png" alt="" />
                   </Link>
@@ -36,10 +36,10 @@ const Newsletters = () => {
           </div>
           <div>
             <h2 className='title'>Or subscribe to the newsletter</h2>
-            <from className='md:w-1/2 mx-auto text-center'>
-                <input type="email" name='email' id='email' placeholder='Email address...' className='h-8 bg-transparent outline-none border-b-2 pl-2 border-black md:2/3 w-full mb-5 placeholder:text-black/50 mr-4' />
-                <input type="submit" value={"Submit"} className='bg-black text-white px-6 py-1 rounded-sm' />
-            </from>
+            <div className='flex flex-col md:w-1/2 md:flex-row mx-auto text-center'>
+                <input type="email" name='email' id='email' placeholder='Email address...'className='h-8 bg-transparent outline-none border-2 pl-2 border-black md:2/3 w-full mb-5 placeholder:text-black/50 mr-4' />
+                <input type="submit" value={"Submit"} className='bg-black text-white px-6 py-1 h-8 rounded-sm' />
+            </div>
           </div>
         </div>
 
