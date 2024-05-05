@@ -19,7 +19,7 @@ const Footer = () => {
           {/* company info */}
           <div className="md:w-[400px]">
             <Link to="/">
-              <img src="/logo.svg" alt="" />
+              <img src="/public/logo.png" alt="" />
             </Link>
             <p className="my-8 text-Black/75">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
