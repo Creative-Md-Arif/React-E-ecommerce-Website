@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 
 
 const brandLogo = [
-    {id: 1, img: "/public/Brand-Logo/01.png"},
-    {id: 2, img: "/public/Brand-Logo/02.png"},
-    {id: 3, img: "/public/Brand-Logo/03.png"},
-    {id: 4, img: "/public/Brand-Logo/04.png"},
-    {id: 5, img: "/public/Brand-Logo/05.png"},
+    {id: 1, img: "/Brand-Logo/01.png"},
+    {id: 2, img: "/Brand-Logo/02.png"},
+    {id: 3, img: "/Brand-Logo/03.png"},
+    {id: 4, img: "/Brand-Logo/04.png"},
+    {id: 5, img: "/Brand-Logo/05.png"},
 ]
 
 const Category = () => {
@@ -29,10 +29,10 @@ const Category = () => {
             <div className='md:w-1/2'>
                <div className=' h-fit group'>
                   <div className=' relative overflow-hidden'>
-                     <img  src="/public/CategoryImage/card.png"  alt="card.png" className='w-full' />
+                     <img  src="/CategoryImage/card.png"  alt="card.png" className='w-full' />
                      <div className=' absolute h-full w-full bg-black_rgba flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0  
                          group-hover:opacity-100 transition-all duration-300 '>
-                       <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>    
+                       {/* <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'></Link>     */}
                      </div>
                  </div>                     
                </div>
@@ -43,50 +43,43 @@ const Category = () => {
                    {/* image one */}
                    <div className=' h-fit group'>
                      <div className=' relative overflow-hidden'>
-                     <img  src="/public/CategoryImage/02.png" alt="" className='w-full' />
+                     <img  src="/CategoryImage/02.png" alt="" className='w-full' />
                       <div className=' absolute h-full w-full bg-black_rgba flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0  
                          group-hover:opacity-100 transition-all duration-300 '>
-                        <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>    
+                        {/* <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>     */}
                       </div>
                    </div>                     
                </div>
                {/* image two */}
                <div className=' h-fit group'>
                      <div className=' relative overflow-hidden'>
-                     <img  src="/public/CategoryImage/03.png" className='w-full' alt="" />
+                     <img  src="/CategoryImage/03.png" className='w-full' alt="" />
                       <div className=' absolute h-full w-full bg-black_rgba flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0  
                          group-hover:opacity-100 transition-all duration-300 '>
-                        <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>    
+                        {/* <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>     */}
                       </div>
                    </div>                     
                </div>
                {/* image three */}
                <div className=' h-fit group'>
                      <div className=' relative overflow-hidden'>
-                     <img  src="/public/CategoryImage/item-category-hover 1.png" alt="" className='w-full' />
+                     <img  src="/CategoryImage/item-category-hover 1.png" alt="" className='w-full' />
                       <div className=' absolute h-full w-full bg-black_rgba flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0  
                          group-hover:opacity-100 transition-all duration-300 '>
-                        <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>    
+                        {/* <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>     */}
                       </div>
                    </div>                     
                </div>
                {/* image four */}
                <div className=' h-fit group'>
                      <div className=' relative overflow-hidden'>
-                     <img  src="/public/CategoryImage/item-category.png" alt="" className='w-full' />
+                     <img  src="/CategoryImage/item-category.png" alt="" className='w-full' />
                       <div className=' absolute h-full w-full bg-black_rgba flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0  
                          group-hover:opacity-100 transition-all duration-300 '>
-                        <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>    
+                        {/* <Link to="/"className=' absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 text-white text-3xl'>Sale</Link>     */}
                       </div>
                    </div>                     
                </div>
-
-
-                    {/* <Link to="/"><img src="/public/CategoryImage/02.png" alt="" /></Link>
-                    <Link to="/"><img src="/public/CategoryImage/03.png" alt="" /></Link>
-                    <Link to="/"><img src="/public/CategoryImage/item-category-hover 1.png" alt="" /></Link>
-                    <Link to="/"><img src="/public/CategoryImage/item-category.png" alt="" /></Link> */}
-
                 </div>
             </div>
             

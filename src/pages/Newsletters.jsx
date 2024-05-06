@@ -14,22 +14,22 @@ const Newsletters = () => {
 
               <div className='flex flex-wrap gap-4 items-center justify-center mb-20 mx-auto '>
                   <Link to="/">
-                      <img src="/public/newslatters/card.png" alt="" />
+                      <img src="/newslatters/card.png" alt="" />
                   </Link>
                   <Link to="/">
-                      <img src="/public/newslatters/05.png" alt="" />
+                      <img src="/newslatters/05.png" alt="" />
                   </Link>
                   <Link to="/">
-                      <img src="/public/newslatters/07.png" alt="" />
+                      <img src="/newslatters/07.png" alt="" />
                   </Link>
                   <Link to="/">
-                      <img src="/public/newslatters/08.png" alt="" />
+                      <img src="/newslatters/08.png" alt="" />
                   </Link>
                   <Link to="/">
-                      <img src="/public/newslatters/09.png" alt="" />
+                      <img src="/newslatters/09.png" alt="" />
                   </Link>
                   <Link to="/">
-                      <img src="/public/newslatters/10.png" alt="" />
+                      <img src="/newslatters/10.png" alt="" />
                   </Link>
               </div>
 

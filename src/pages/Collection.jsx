@@ -9,7 +9,7 @@ const Collection = () => {
         <div className='h-[580px] flex justify-between md:flex-row items-center'>
             <div className='md:w-1/2'></div>
             <div className='md:w-1/2'>
-                <img src="/public/1024px-Zara_Logo 2.png" alt="" />
+                <img src="/1024px-Zara_Logo 2.png" alt="" />
                 <p className='text-lg text-white capitalize my-8 md:w-2/3 leading-[32px]'>Lustrous yet understated. The new evening wear collection exclusively offered at the reopened Giorgio Armani boutique in Los Angeles.   </p>
                  {/* button */}
                 <div className='py-5'>

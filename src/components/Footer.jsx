@@ -19,7 +19,7 @@ const Footer = () => {
           {/* company info */}
           <div className="md:w-[400px]">
             <Link to="/">
-              <img src="/public/logo.png" alt="" />
+              <img src="/logo.png" alt="" />
             </Link>
             <p className="my-8 text-Black/75">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -105,7 +105,7 @@ const Footer = () => {
       <div className="bg-Black flex flex-col md:flex-row items-center justify-around">
       <p className="text-white text-center items-center py-3">© {currentYear} Dhaka, Bangladesh.</p>
       <div>
-        <img src="/public/icons_payment 1.png" alt="" />
+        <img src="/icons_payment 1.png" alt="" />
      </div> 
        <div>
         <button onClick={scrollTop} className="text-white text-xl flex gap-3 items-center">Back to Scroll <FaArrowUp className="text-xl" /> </button>
